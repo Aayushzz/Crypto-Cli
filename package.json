@@ -1,0 +1,21 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cryptodex": "./bin/cryptodex.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Niroila",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.2.12"
+  }
+}
